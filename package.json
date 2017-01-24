@@ -1,0 +1,20 @@
+{
+  "name": "simplex-noise-playground",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "budo src/index.js --dir src --live --pushstate"
+  },
+  "keywords": [],
+  "author": "Fabian Eichenberger <fabian.eichenberger@gmail.com> (https://github.com/queckezz)",
+  "license": "MIT",
+  "devDependencies": {
+    "budo": "^9.4.5"
+  },
+  "dependencies": {
+    "fast-simplex-noise": "^3.2.0",
+    "lerp": "^1.0.3",
+    "simplex-noise": "^2.3.0"
+  }
+}
